@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hurricane&family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <!--aos-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--nav-->
+    <div id="container">
+        <nav>
+            <img class="logo" src="https://cdn-icons-png.flaticon.com/512/6997/6997662.png" alt="no img">
+            <ul>
+                <li class="list_items"><a class="links" href="#home">HOME</a></li>
+
+                <li class="list_items"><a class="links" href="#about">ABOUT</a></li>
+
+                <li class="list_items"><a class="links" href="#skills">SKILLS</a></li>
+
+                <li class="list_items"><a class="links" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!--home-->
+        <section id="home">
+            <div class="home-content">
+                <h1 id="username" class="animate__animated animate__wobble">I'm<span id="lname"> Krishna K Kumar</span></h1>
+                <p id="user-details">This is my official webpage of all<br>details and work experience in web
+                    development</p>
+                <a id="download" href="images/KRISHNA-K-KUMAR-Resume (1).pdf" download>Download CV</a>
+            </div>
+
+            <div class="Home-img">
+                <!--shape-->
+                <img id="shape" class="group1" src="./images/bg-final.png" alt="shape">
+                <!--girl-->
+                <img id="girl" class="group1" src="./images/businesslady-final-removebg-preview.png" alt="girl">
+            </div>
+        </section>
+        <!--About-->
+        <section id="about">
+            <div class="Sectionhead">
+                <h2 class="Mainhead">About Me</h2>
+                <span class="Subhead">Introduction</span>
+            </div>
+            <div class="Aboutbody">
+                <div class="Aboutimg">
+                    <img data-aos="zoom-in-left" class="img1"
+                        src="https://static.vecteezy.com/system/resources/previews/023/798/845/non_2x/self-love-an-love-yor-body-concept-the-girl-hugs-herself-and-presses-her-heart-to-her-with-the-words-i-love-myself-vector.jpg"
+                        alt="no img">
+                </div>
+                <div class="Aboutcontent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cumque sint error dignissimos
+                        temporibus facilis minus nobis exercitationem quae mollitia dolores consequatur numquam deleniti
+                        ut id, molestias rem est. Perferendis.</p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Krishna K Kumar</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>7736262506</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>krishnakkumar2506@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--skills-->
+        <section id="skills">
+            <div class="Sectionhead">
+                <h2 class="Mainhead"> Skills</h2>
+                <span class="Subhead">My skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progressbars">
+                    <!--progressbars-->
+                    <div class="bars">
+                        <h3 class="barHead">HTML</h3>
+                        <span class="barPercent">84%</span>
+                        <div  class="basebar"></div>
+                        <div data-aos="fade-right" class="htmlbar basebar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">css</h3>
+                        <span class="barPercent">79%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="cssbar basebar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">JS</h3>
+                        <span class="barPercent">70%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="jsbar basebar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">react</h3>
+                        <span class="barPercent">60%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="reactbar basebar"></div>
+                    </div>
+                </div>
+                <div  data-aos="zoom-out-up" class="skillimage">
+                    <img width="100%"
+                        src="https://img.freepik.com/premium-vector/focused-female-programmer-coding-while-sitting_1120554-55138.jpg"
+                        alt="no image">
+                </div>
+            </div>
+        </section>
+        <!--contact-->
+        <section id="contact">
+            <div class="Sectionhead">
+                <h2 class="Mainhead"> contacts</h2>
+                <span class="Subhead">My contacts</span>
+            </div>
+            <div class="iconcollection">
+                <!--linkedin-->
+                <div class="icon">
+                    <a href="https://in.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+                </div>
+                <!--github-->
+                <div class="icon">
+                    <a href="https://in.linkedin.com/" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!--twitter-->
+                <div class="icon">
+                    <a href="https://in.linkedin.com/" target="_blank"><i
+                            class="fa-brands fa-square-twitter brands"></i></a>
+                </div>
+                <!--whatsapp-->
+                <div class="icon">
+                    <a href="https://in.linkedin.com/" target="_blank"><i
+                            class="fa-brands fa-square-whatsapp brands"></i></a>
+                </div>
+                <!--facebook-->
+                <div class="icon">
+                    <a href="https://in.linkedin.com/" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <!--instagram-->
+                <div class="icon">
+                    <a href="https://www.instagram.com/" target="_blank"><i
+                            class="fa-brands fa-square-instagram brands"></i></a>
+                </div>
+            </div>
+        </section>
+<!--footer-->
+<footer>
+    <p id="copyright">&copy; by portfolio website -june 2024, All RightsReserved to &reg; Krishna K Kumar</p>
+    <div class="icon upArrow">
+        <a href="#container"><i class="fa-solid fa-chevron-up brands"></i></a>
+    </div>
+
+</footer>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
